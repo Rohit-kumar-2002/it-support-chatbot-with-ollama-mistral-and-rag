@@ -1,0 +1,7 @@
+streamlit
+langchain>=0.1.14
+langchain-community>=0.0.20
+langchain-core
+langchain-huggingface
+sentence-transformers
+faiss-cpu
