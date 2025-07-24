@@ -4,7 +4,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
 # Step 1: Load JSON
-DATA_PATH = "D:/ollama/project/data/rag_ready_qa_dataset.json"
+DATA_PATH = "data/rag_ready_qa_dataset.json"
 
 def load_json_file(path):
     loader = JSONLoader(
